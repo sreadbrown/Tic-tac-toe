@@ -1,8 +1,12 @@
 
 
+
 $(document).ready(function() {
-  $("#board").click(function() {
-      $(".1").text("X");
+
+  $(".1, .2, .3, .4, .5, .6, .7, .8, .9").click(function(event) {
+      $(this).text("X");
+
+
   });
 
 
