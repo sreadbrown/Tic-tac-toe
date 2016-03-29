@@ -1,5 +1,7 @@
 body {
   background-color: #b3e6ff;
+  text-align: center;
+  font-size: 200px;
 }
 h1 {
   text-align: center;
@@ -10,6 +12,10 @@ table.center {
   margin-right:15%;
 }
 
+p {
+  text-align: center;
+  font-size: 200px;
+}
 
 .square {
     width:300px;
