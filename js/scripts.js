@@ -2,8 +2,11 @@ var counter = 0;
 var icon = 'X';
 var player = 'Player 1';
 
+
+
+
 $(document).ready(function() {
-  $(".1, .2, .3, .4, .5, .6, .7, .8, .9").click(function(event) {
+  $(".square").click(function(event) {
     if($(this).html()=="") {
       if(counter % 2 === 0) {
         icon = "O";
@@ -15,6 +18,12 @@ $(document).ready(function() {
       $(this).html(icon);
       counter++
     }
+
+  });
+
+  $('#restart').click(function() {
+    $('.square').html('');
+    counter = 0;
 
   });
 
